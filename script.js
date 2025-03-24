@@ -66,8 +66,10 @@ class GameObject {
 }
 
 const battleship = new GameObject('battleship', './assets/battleship.png', 185, 94, 1, (width /2) - (185*.4)/2, 66, 100, .4);
+const battleship2 = new GameObject('battleship2', './assets/battleship2.png', 185, 94, 1, (width /2) - (185*.4)/2, 66, 100, .4);
 const blackMine = new GameObject('blackMine', './assets/blackMine.png', 200, 200, 1, null, null, 100, .5);
 const blackSub = new GameObject('blackSub.png', './assets/blackSub.png', 165, 47, 1, 100, 220, 100, .4);
+const blackSub2 = new GameObject('blackSub2.png', './assets/blackSub2.png', 165, 47, 1, 100, 220, 100, .4);
 const clouds = new GameObject('sky', './assets/clouds.png', 128, 16, 1, 0, 0, 100, 2);
 const clouds2 = new GameObject('sky', './assets/clouds.png', 128, 16, 1, 70, 0, 100, 2);
 const clouds3 = new GameObject('sky', './assets/clouds.png', 128, 16, 1, 150, 0, 100, 2);
@@ -79,6 +81,7 @@ const depthBomb = new GameObject('depthBomb', './assets/depthBomb.png', 200, 200
 const explosion = new GameObject('explosion', './assets/explosion.png', 200, 200, 5, null, null, 100, 0);
 const greyMine = new GameObject('greyMine', './assets/greyMine.png', 200, 200, 1, null, null, 100, 0);
 const greySub = new GameObject('greySub', './assets/greySub.png', 165, 47, 1, 600, 250, 100, .4);
+const greySub2 = new GameObject('greySub2', './assets/greySub2.png', 165, 47, 1, 600, 250, 100, .4);
 const ocean = new GameObject('ocean', './assets/ocean.png', 128, 16, 1, 0, 100, 100, 1);
 const ocean2 = new GameObject('ocean', './assets/ocean.png', 128, 16, 1, 128, 100, 100, 1);
 const ocean3 = new GameObject('ocean', './assets/ocean.png', 128, 16, 1, 256, 100, 100, 1);
