@@ -2,7 +2,6 @@ h1 {
     text-align: center;
     font-size: 2em;
     color: #333;
-    margin-top: 20px;
 }
 canvas {
     border: 1px solid black;
@@ -13,5 +12,4 @@ canvas {
 }
 footer {
     text-align: center;
-    margin-top: 20px;
 }
